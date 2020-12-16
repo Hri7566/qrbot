@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hri7566/qrbot/issues"
   },
-  "homepage": "https://github.com/Hri7566/qrbot#readme"
+  "homepage": "https://github.com/Hri7566/qrbot#readme",
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  }
 }
