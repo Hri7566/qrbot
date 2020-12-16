@@ -4,7 +4,8 @@
   "description": "A Discord bot that generates qr codes from links.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node .",
+    "nodemon": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/Hri7566/qrbot#readme",
   "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
     "qrcode": "^1.4.4"
   }
 }
